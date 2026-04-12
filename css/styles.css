@@ -654,7 +654,7 @@ img {
 }
 
 .modal-field--comment {
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .modal-close-btn {
@@ -762,7 +762,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 
 .modal-checkbox-label a {
