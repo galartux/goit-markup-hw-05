@@ -448,6 +448,7 @@ img {
 
 .footer-social {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   margin-right: 80px;
 }
@@ -459,11 +460,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.footer-social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-social-text {
@@ -644,9 +640,16 @@ img {
 }
 
 .modal-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.modal-field--comment {
+  margin-bottom: 16px;
+}
+
+.modal-checkbox {
+  margin-bottom: 24px;
 }
 
 .modal-field {
