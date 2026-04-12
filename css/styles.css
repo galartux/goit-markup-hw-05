@@ -640,12 +640,17 @@ img {
 }
 
 .modal-form {
-  display: block;
-  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .modal-field--comment {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.modal-group--policy {
+  margin-top: 16px;
 }
 
 .modal-checkbox {
