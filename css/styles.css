@@ -468,7 +468,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .footer-social-list {
@@ -537,7 +537,6 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  padding: 8px 16px;
 }
 
 .footer-input:focus {
@@ -550,7 +549,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-  padding: 8px 16px;
+  /* padding: 8px 16px; */
 }
 
 .footer-submit-btn {
@@ -640,25 +639,23 @@ img {
 }
 
 .modal-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: block;
 }
 
 .modal-field--comment {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
-.modal-group--policy {
+/* .modal-group--policy {
   margin-top: 16px;
-}
+} */
 
-.modal-checkbox {
+/* .modal-checkbox {
   margin-bottom: 24px;
-}
+} */
 
 .modal-field {
-  margin-bottom: 0px;
+  margin-bottom: 8px;
 }
 
 .modal-close-btn {
@@ -766,6 +763,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 24px;
 }
 
 .modal-checkbox-label a {
